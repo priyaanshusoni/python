@@ -1,0 +1,8 @@
+/venv
+
+
+# IDE folders
+
+.cursor 
+* .vscode
+.antigravity
