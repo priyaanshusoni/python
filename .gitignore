@@ -4,5 +4,5 @@
 # IDE folders
 
 .cursor 
-* .vscode
+*.vscode
 .antigravity
