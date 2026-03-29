@@ -6,3 +6,6 @@
 .cursor 
 *.vscode
 .antigravity
+
+
+*__pycache__
