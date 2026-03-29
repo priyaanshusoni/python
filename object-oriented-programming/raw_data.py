@@ -9,10 +9,3 @@ john = {
 
 
 
-class A:
-    
-    def f1(self):
-        print('f1 works')
-    
-    def f2(self):
-        print('f2 works')
