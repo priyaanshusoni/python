@@ -50,7 +50,7 @@ listExample2 = ['a', 'b', 'c', 'd', 'e'
 ]
 
 temp = listExample[1:4]   #slicing returns a new list 
-print(temp)
+print('temp',temp)
 
 listExample2.append('f')  # adding an element to the list
 print(listExample + listExample2)  # concatenation of lists

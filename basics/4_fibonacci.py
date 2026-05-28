@@ -1,22 +1,56 @@
+# write a program to print nth fibinacci number
 
 
-# 0  1  1  2  3   5  8   13  
+def fib(n: int)-> int:
+    
+    
+    if n==0 or n==1:
+        return n
+    
+    return fib(n-1) + fib(n-2)
 
 
 
 
-a,b = 0,1
+
+def fib_list(n: int)-> list:
+    
+    # n = 5
+    
+    ans = []
+    
+    
+    
+    first =0
+    second = 1
+    
+    ans.append(first)
+    ans.append(second)
+    
+    n-=2
+    
+    while n:
+        n-=1 # 4 , 3
+        third = first+second # 1 , 2 
+        ans.append(third) 
+        first = second # 1 , 1
+        second = third # 1 , 2
+    
+    
+    return ans
+        
+        
+        
+    
+    
 
 
-listA = []
-
-i=0
-
-while i<10:
-    i = i+1
-    temp = a+b
-    listA.append(temp)
-    a,b = b , a+b
 
 
-print(listA)
+
+
+
+print(fib(1))
+print(fib(2))
+print(fib(3))
+print(fib_list(5))
