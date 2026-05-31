@@ -1,4 +1,4 @@
-# Ths if control flow in python ha if , else & else keywords 
+# Ths if control flow in python has if , elif & else keywords 
 
 
 """
