@@ -14,6 +14,8 @@ def function_name([list_of_parameters]):---> punctuation which represents end of
 from os import name
 
 
+
+
 def print_name(name):
     print(f"Hello {name}")
     
